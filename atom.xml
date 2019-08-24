@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://zuiqianghe.github.io</id>
+    <id>https://reverieskystudios.github.io</id>
     <title>ReverieSky Studios</title>
-    <updated>2019-08-24T03:54:12.156Z</updated>
+    <updated>2019-08-24T09:18:07.787Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://zuiqianghe.github.io"/>
-    <link rel="self" href="https://zuiqianghe.github.io/atom.xml"/>
+    <link rel="alternate" href="https://reverieskystudios.github.io"/>
+    <link rel="self" href="https://reverieskystudios.github.io/atom.xml"/>
     <subtitle>“徒然，只是，情不知所起，当我意识到时亿心悦于你。”</subtitle>
-    <logo>https://zuiqianghe.github.io/images/avatar.png</logo>
-    <icon>https://zuiqianghe.github.io/favicon.ico</icon>
+    <logo>https://reverieskystudios.github.io/images/avatar.png</logo>
+    <icon>https://reverieskystudios.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, ReverieSky Studios</rights>
 </feed>

@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dreamy-sky.github.io</id>
     <title>ReverieSky Studios</title>
-    <updated>2019-08-26T05:49:17.649Z</updated>
+    <updated>2019-08-26T05:58:34.075Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://dreamy-sky.github.io"/>
     <link rel="self" href="https://dreamy-sky.github.io/atom.xml"/>
-    <subtitle>“徒然，只是，情不知所起，当我意识到时亿心悦于你。”</subtitle>
+    <subtitle>“徒然，只是，情不知所起，当我意识到时已心悦于你。”</subtitle>
     <logo>https://dreamy-sky.github.io/images/avatar.png</logo>
     <icon>https://dreamy-sky.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, ReverieSky Studios</rights>

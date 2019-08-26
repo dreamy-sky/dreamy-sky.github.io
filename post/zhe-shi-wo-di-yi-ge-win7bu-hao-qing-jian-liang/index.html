@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>文章归档 | ReverieSky Studios</title>
+<title>这是我第一个win7，不好请见谅 | ReverieSky Studios</title>
 <meta name="description" content="“徒然，只是，情不知所起，当我意识到时亿心悦于你。”">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -13,6 +13,12 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://dreamy-sky.github.io/styles/main.css">
 
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
 
 
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
@@ -111,30 +117,38 @@
 
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
-          
+          <div class="post-detail">
+            <h2 class="post-title">这是我第一个win7，不好请见谅</h2>
+            <div class="post-date">2019-08-26</div>
+            
+              <div class="feature-container" style="background-image: url('https://s2.ax1x.com/2019/08/26/mW0iS1.jpg')">
+              </div>
+            
+            <div class="post-content">
+              <p>最大的特点就是总大小才1多G<!-- more --></p>
+<p>好了，废话不多说放传送门<a href="https://onedrive.gimhoy.com/sharepoint/aHR0cHM6Ly9qeGpqeHktbXkuc2hhcmVwb2ludC5jb20vOnU6L2cvcGVyc29uYWwvenVpcWlhbmdoZV90X29kbWFpbF9jbi9FWWhDcmkwU21VeENoUzRRMGZmT0NTVUJ2V01qQUQ4dUNfUmxncUJCVWxzUEJBP2U9aGJuTEZt.iso"></a></p>
 
-          <h2 class="archives-title">文章归档</h2>
-          <div class="archives-container">
+            </div>
             
-              <h2 class="year" data-aos="fade-in" data-aos-delay="500">2019</h2>
+              <div class="tag-container">
+                
+                  <a href="https://dreamy-sky.github.io/tag/s0EpcO0sh" class="tag">
+                    w7
+                  </a>
+                
+              </div>
+            
+            
+
+            
               
-                
-                  <article class="post">
-                    <a href="https://dreamy-sky.github.io/post/zhe-shi-wo-di-yi-ge-win7bu-hao-qing-jian-liang">
-                      <h2 class="post-title">
-                        这是我第一个win7，不好请见谅
-                      </h2>
-                    </a>
-                  </article>
-                
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
               
             
+
           </div>
-
-          <div class="pagination-container">
-  
-  
-</div>
 
         </div>
       </div>
@@ -156,6 +170,29 @@ var app = new Vue({
 })
 
 </script>
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: 'c9b0fafd98d03d2992b2',
+        clientSecret: '0170f3158fa5a96800b37396a37dc9a8d4d8edc2',
+        repo: 'https://github.com/gitalk/gitalk',
+        owner: 'dreamy-sky',
+        admin: ['dreamy-sky'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 
